@@ -1,0 +1,47 @@
+.product-wraper {
+  border-radius: 5%;
+  transition: 2s;
+  width: 40%;
+  height: 95px;
+  object-fit: initial;
+}
+
+.contenedor-wraper {
+  text-align: center;
+  border: 2px solid gray;
+    border-radius: 11px;
+    height: 22em;
+    padding: 0em;
+    font-size: 12px;
+}
+
+.flex-right {
+  width: 50%;
+}
+
+.flex-left {
+  width: 45%;
+  height: 100vh;
+}
+
+.flex-container {
+  display: flex;
+  margin-top: 1em;
+  flex-direction: row;
+}
+
+.button_card {
+  margin-top: 4px !important;
+}
+
+
+.img-wraper {
+  text-align: center;
+  
+    padding: 3em;
+
+}
+
+.product-wraper:hover {
+  transform: scale(1.1);
+}
